@@ -1,0 +1,13 @@
+C:\Users\Administrator\source\repos\ADOProject\ADOProject\bin\Debug\ADOProject.exe.config
+C:\Users\Administrator\source\repos\ADOProject\ADOProject\bin\Debug\ADOProject.exe
+C:\Users\Administrator\source\repos\ADOProject\ADOProject\bin\Debug\ADOProject.pdb
+C:\Users\Administrator\source\repos\ADOProject\ADOProject\obj\Debug\ADOProject.csproj.AssemblyReference.cache
+C:\Users\Administrator\source\repos\ADOProject\ADOProject\obj\Debug\ADOProject.Form1.resources
+C:\Users\Administrator\source\repos\ADOProject\ADOProject\obj\Debug\ADOProject.Properties.Resources.resources
+C:\Users\Administrator\source\repos\ADOProject\ADOProject\obj\Debug\ADOProject.csproj.GenerateResource.cache
+C:\Users\Administrator\source\repos\ADOProject\ADOProject\obj\Debug\ADOProject.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\ADOProject\ADOProject\obj\Debug\ADOProject.exe
+C:\Users\Administrator\source\repos\ADOProject\ADOProject\obj\Debug\ADOProject.pdb
+C:\Users\Administrator\source\repos\ADOProject\ADOProject\obj\Debug\ADOProject.Course.resources
+C:\Users\Administrator\source\repos\ADOProject\ADOProject\obj\Debug\ADOProject.Details.resources
+C:\Users\Administrator\source\repos\ADOProject\ADOProject\obj\Debug\ADOProject.Result.resources
