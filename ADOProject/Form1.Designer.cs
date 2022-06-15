@@ -29,29 +29,22 @@ namespace ADOProject
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.Coursebtn = new System.Windows.Forms.Button();
-            this.Detailsbtn = new System.Windows.Forms.Button();
-            this.userbtn = new System.Windows.Forms.Button();
-            this.resultbtn = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.ContentLabel = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.LayoutPanel = new System.Windows.Forms.Panel();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Name = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Gender = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Age = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Coursebtn = new System.Windows.Forms.Button();
+            this.Detailsbtn = new System.Windows.Forms.Button();
+            this.userbtn = new System.Windows.Forms.Button();
+            this.resultbtn = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
-            this.LayoutPanel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
+            this.panel1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.panel1.Controls.Add(this.Coursebtn);
             this.panel1.Controls.Add(this.Detailsbtn);
             this.panel1.Controls.Add(this.userbtn);
@@ -59,65 +52,18 @@ namespace ADOProject
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(121, 474);
+            this.panel1.Size = new System.Drawing.Size(90, 474);
             this.panel1.TabIndex = 0;
-            // 
-            // Coursebtn
-            // 
-            this.Coursebtn.BackColor = System.Drawing.Color.White;
-            this.Coursebtn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.Coursebtn.Image = global::ADOProject.Properties.Resources.book_stack;
-            this.Coursebtn.Location = new System.Drawing.Point(3, 235);
-            this.Coursebtn.Name = "Coursebtn";
-            this.Coursebtn.Size = new System.Drawing.Size(110, 110);
-            this.Coursebtn.TabIndex = 1;
-            this.Coursebtn.UseVisualStyleBackColor = false;
-            this.Coursebtn.Click += new System.EventHandler(this.Coursebtn_Click);
-            // 
-            // Detailsbtn
-            // 
-            this.Detailsbtn.BackColor = System.Drawing.Color.White;
-            this.Detailsbtn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.Detailsbtn.Image = ((System.Drawing.Image)(resources.GetObject("Detailsbtn.Image")));
-            this.Detailsbtn.Location = new System.Drawing.Point(3, 351);
-            this.Detailsbtn.Name = "Detailsbtn";
-            this.Detailsbtn.Size = new System.Drawing.Size(110, 110);
-            this.Detailsbtn.TabIndex = 3;
-            this.Detailsbtn.UseVisualStyleBackColor = false;
-            this.Detailsbtn.Click += new System.EventHandler(this.Detailsbtn_Click);
-            // 
-            // userbtn
-            // 
-            this.userbtn.BackColor = System.Drawing.Color.White;
-            this.userbtn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.userbtn.Image = ((System.Drawing.Image)(resources.GetObject("userbtn.Image")));
-            this.userbtn.Location = new System.Drawing.Point(3, 119);
-            this.userbtn.Name = "userbtn";
-            this.userbtn.Size = new System.Drawing.Size(110, 110);
-            this.userbtn.TabIndex = 1;
-            this.userbtn.UseVisualStyleBackColor = false;
-            this.userbtn.Click += new System.EventHandler(this.userbtn_Click_1);
-            // 
-            // resultbtn
-            // 
-            this.resultbtn.BackColor = System.Drawing.Color.White;
-            this.resultbtn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.resultbtn.Image = global::ADOProject.Properties.Resources.best;
-            this.resultbtn.Location = new System.Drawing.Point(3, 3);
-            this.resultbtn.Name = "resultbtn";
-            this.resultbtn.Size = new System.Drawing.Size(110, 110);
-            this.resultbtn.TabIndex = 0;
-            this.resultbtn.UseVisualStyleBackColor = false;
-            this.resultbtn.Click += new System.EventHandler(this.userbtn_Click);
             // 
             // panel2
             // 
+            this.panel2.BackColor = System.Drawing.Color.Lime;
             this.panel2.Controls.Add(this.ContentLabel);
             this.panel2.Controls.Add(this.label1);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel2.Location = new System.Drawing.Point(121, 0);
+            this.panel2.Location = new System.Drawing.Point(90, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(713, 64);
+            this.panel2.Size = new System.Drawing.Size(744, 59);
             this.panel2.TabIndex = 1;
             // 
             // ContentLabel
@@ -142,46 +88,58 @@ namespace ADOProject
             // 
             // LayoutPanel
             // 
-            this.LayoutPanel.Controls.Add(this.dataGridView1);
-            this.LayoutPanel.Location = new System.Drawing.Point(125, 65);
+            this.LayoutPanel.Location = new System.Drawing.Point(90, 55);
             this.LayoutPanel.Name = "LayoutPanel";
-            this.LayoutPanel.Size = new System.Drawing.Size(712, 448);
+            this.LayoutPanel.Size = new System.Drawing.Size(744, 419);
             this.LayoutPanel.TabIndex = 2;
             // 
-            // dataGridView1
+            // Coursebtn
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.ID,
-            this.Name,
-            this.Gender,
-            this.Age});
-            this.dataGridView1.Location = new System.Drawing.Point(3, 3);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(709, 406);
-            this.dataGridView1.TabIndex = 0;
+            this.Coursebtn.BackColor = System.Drawing.Color.White;
+            this.Coursebtn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.Coursebtn.Image = global::ADOProject.Properties.Resources.book_stack1;
+            this.Coursebtn.Location = new System.Drawing.Point(5, 235);
+            this.Coursebtn.Name = "Coursebtn";
+            this.Coursebtn.Size = new System.Drawing.Size(80, 80);
+            this.Coursebtn.TabIndex = 1;
+            this.Coursebtn.UseVisualStyleBackColor = false;
+            this.Coursebtn.Click += new System.EventHandler(this.Coursebtn_Click);
             // 
-            // ID
+            // Detailsbtn
             // 
-            this.ID.Frozen = true;
-            this.ID.HeaderText = "Column1";
-            this.ID.Name = "ID";
-            this.ID.ReadOnly = true;
+            this.Detailsbtn.BackColor = System.Drawing.Color.White;
+            this.Detailsbtn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.Detailsbtn.Image = global::ADOProject.Properties.Resources.resume1;
+            this.Detailsbtn.Location = new System.Drawing.Point(5, 351);
+            this.Detailsbtn.Name = "Detailsbtn";
+            this.Detailsbtn.Size = new System.Drawing.Size(80, 80);
+            this.Detailsbtn.TabIndex = 3;
+            this.Detailsbtn.UseVisualStyleBackColor = false;
+            this.Detailsbtn.Click += new System.EventHandler(this.Detailsbtn_Click);
             // 
-            // Name
+            // userbtn
             // 
-            this.Name.HeaderText = "Column1";
-            this.Name.Name = "Name";
+            this.userbtn.BackColor = System.Drawing.Color.White;
+            this.userbtn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.userbtn.Image = global::ADOProject.Properties.Resources.best1;
+            this.userbtn.Location = new System.Drawing.Point(5, 119);
+            this.userbtn.Name = "userbtn";
+            this.userbtn.Size = new System.Drawing.Size(80, 80);
+            this.userbtn.TabIndex = 1;
+            this.userbtn.UseVisualStyleBackColor = false;
+            this.userbtn.Click += new System.EventHandler(this.userbtn_Click_1);
             // 
-            // Gender
+            // resultbtn
             // 
-            this.Gender.HeaderText = "Column1";
-            this.Gender.Name = "Gender";
-            // 
-            // Age
-            // 
-            this.Age.HeaderText = "Column1";
-            this.Age.Name = "Age";
+            this.resultbtn.BackColor = System.Drawing.Color.White;
+            this.resultbtn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.resultbtn.Image = global::ADOProject.Properties.Resources.user1;
+            this.resultbtn.Location = new System.Drawing.Point(5, 11);
+            this.resultbtn.Name = "resultbtn";
+            this.resultbtn.Size = new System.Drawing.Size(80, 80);
+            this.resultbtn.TabIndex = 0;
+            this.resultbtn.UseVisualStyleBackColor = false;
+            this.resultbtn.Click += new System.EventHandler(this.userbtn_Click);
             // 
             // Form1
             // 
@@ -193,13 +151,11 @@ namespace ADOProject
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            this.LayoutPanel.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -215,11 +171,6 @@ namespace ADOProject
         private System.Windows.Forms.Panel LayoutPanel;
         private System.Windows.Forms.Label ContentLabel;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ID;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Name;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Gender;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Age;
     }
 }
 

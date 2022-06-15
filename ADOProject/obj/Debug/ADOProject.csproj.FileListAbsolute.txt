@@ -9,5 +9,6 @@ C:\Users\Administrator\source\repos\ADOProject\ADOProject\obj\Debug\ADOProject.c
 C:\Users\Administrator\source\repos\ADOProject\ADOProject\obj\Debug\ADOProject.exe
 C:\Users\Administrator\source\repos\ADOProject\ADOProject\obj\Debug\ADOProject.pdb
 C:\Users\Administrator\source\repos\ADOProject\ADOProject\obj\Debug\ADOProject.Course.resources
-C:\Users\Administrator\source\repos\ADOProject\ADOProject\obj\Debug\ADOProject.Details.resources
 C:\Users\Administrator\source\repos\ADOProject\ADOProject\obj\Debug\ADOProject.Result.resources
+C:\Users\Administrator\source\repos\ADOProject\ADOProject\obj\Debug\ADOProject.Student.resources
+C:\Users\Administrator\source\repos\ADOProject\ADOProject\obj\Debug\ADOProject.DetailsForm.resources

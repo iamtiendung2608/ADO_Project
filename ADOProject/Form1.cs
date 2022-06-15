@@ -12,9 +12,10 @@ namespace ADOProject
 {
     public partial class Form1 : Form
     {
-        private Details DetailsForm = new Details();
+        private DetailsForm DetailsForm = new DetailsForm();
         private Course CoursesForm = new Course();
         private Result ResultForm = new Result();
+        private Student StudentForm = new Student();
         public Form1()
         {
             InitializeComponent();
@@ -22,17 +23,16 @@ namespace ADOProject
 
         private void userbtn_Click(object sender, EventArgs e)
         {
-            ContentLabel.Text = "Điểm số";
+            ContentLabel.Text = "Sinh Viên";
             LayoutPanel.Controls.Clear();
-            LayoutPanel.Controls.Add(ResultForm);
-
+            LayoutPanel.Controls.Add(StudentForm);
         }
 
         private void userbtn_Click_1(object sender, EventArgs e)
         {
-            ContentLabel.Text = "Sinh Viên";
+            ContentLabel.Text = "Điểm số";
             LayoutPanel.Controls.Clear();
-            //LayoutPanel.Controls.Add(ResultForm);
+            LayoutPanel.Controls.Add(ResultForm);
         }
 
         private void Coursebtn_Click(object sender, EventArgs e)
